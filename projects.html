@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects | Mayur Baviskar</title>
+  <style>
+    body {
+      background: #0f172a;
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+    nav {
+      background: #1e293b;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav .logo {
+      color: #00ffd5;
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+    nav ul li a {
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav ul li a:hover {
+      color: #00ffd5;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h1 {
+      color: #00ffd5;
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+    }
+
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 25px;
+    }
+
+    .project-card {
+      background: #1e1e1e;
+      border: 1px solid #2d3748;
+      border-radius: 12px;
+      padding: 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 15px rgba(0, 255, 213, 0.2);
+    }
+
+    .project-card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .project-card h3 {
+      color: #00ffd5;
+      margin-bottom: 10px;
+      font-size: 1.3rem;
+    }
+
+    .project-card p {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: #d1d5db;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">Mayur Baviskar</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="">Projects</a></li>
+      <li><a href="internship.html">Internship</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <h1>My Projects</h1>
+    <div class="project-grid">
+
+      <div class="project-card">
+        <img src="AI study hub.png" alt="AI Study Hub">
+        <h3>AI Study Hub</h3>
+        <p>An AI-powered learning platform offering live coding help, topic suggestions, and internship recommendations. Built with HTML, CSS, JS, Django, and OpenAI API.</p>
+      </div>
+
+      <div class="project-card">
+        <img src="SpotLight.png" alt="SportLight">
+        <h3>SpotLight – Event Booking</h3>
+        <p>A user-friendly platform for artists to list and manage events. Features include ticket booking, payment, and admin dashboard. Built with Django, Bootstrap, and MySQL.</p>
+      </div>
+
+      <div class="project-card">
+        <img src="NeuraWeather.png" alt="Animated Portfolio">
+        <h3>NeuraWeather</h3>
+        <p>An AI-powered weather app delivering real-time local and global forecasts. Key features: temperature, humidity, wind speed, and condition updates. Built using weather APIs, responsive UI, Django, and Bootstrap.</p>
+      </div>
+
+    </div>
+  </section>
+</body>
+</html>

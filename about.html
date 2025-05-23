@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Mayur Baviskar</title>
+  <style>
+    body {
+      background: #0f172a;
+      color: white;
+      font-family: 'Georgia', serif;
+      margin: 0;
+    }
+    nav {
+      background: #1e293b;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav .logo {
+      color: #00ffd5;
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+    nav ul li a {
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav ul li a:hover {
+      color: #00ffd5;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+      text-align: left;
+    }
+    h1 {
+      color: #00ffd5;
+      font-size: 2.2rem;
+      margin-bottom: 30px;
+      border-bottom: 2px solid #00ffd5;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    .profile-img {
+      width: 140px;
+      border-radius: 50%;
+      float: right;
+      margin-left: 20px;
+      border: 3px solid #00ffd5;
+    }
+    .about-box {
+      background-color: #1e293b;
+      padding: 30px;
+      border-left: 5px solid #00ffd5;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 255, 213, 0.1);
+      text-align: justify;
+      line-height: 1.8;
+      font-size: 1.1rem;
+    }
+    .social-links {
+      margin-top: 40px;
+    }
+    .social-links a {
+      color: #00ffd5;
+      text-decoration: none;
+      margin-right: 20px;
+      font-weight: bold;
+    }
+    .social-links a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 600px) {
+      .profile-img {
+        float: none;
+        display: block;
+        margin: 0 auto 20px auto;
+      }
+      section {
+        text-align: center;
+      }
+      .about-box {
+        text-align: left;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">Mayur Baviskar</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="">About</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="internship.html">Internship</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <h1>About Me</h1>
+    <img src="mypic.jpg" alt="Mayur Baviskar" class="profile-img">
+    <div class="about-box">
+      <p>
+        I am a passionate web developer with strong expertise in Python Django, HTML, CSS, JavaScript, and Bootstrap.
+        My primary focus is on crafting user-friendly and responsive web applications that deliver smooth performance and elegant interfaces.
+        I take pride in writing clean and efficient code and am always eager to explore new tools and technologies.
+      </p>
+      <p>
+        My mission is to build solutions that make a difference—whether it's connecting people, solving a real-world challenge,
+        or simply bringing an innovative idea to life. I believe in lifelong learning, constant improvement, and the joy of meaningful creation.
+      </p>
+    </div>
+
+    <div class="social-links">
+      <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/mayur-baviskar-786489300?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+      <a href="https://twitter.com/yourusername" target="_blank">Twitter</a>
+    </div>
+  </section>
+</body>
+</html>

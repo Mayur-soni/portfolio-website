@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume | Mayur Baviskar</title>
+  <style>
+    body {
+      background: #0f172a;
+      color: white;
+      font-family: 'Georgia', serif;
+      margin: 0;
+    }
+    nav {
+      background: #1e293b;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav .logo {
+      color: #00ffd5;
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+    nav ul li a {
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav ul li a:hover {
+      color: #00ffd5;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+      text-align: left;
+    }
+    h1, h2 {
+      color: #00ffd5;
+      margin-bottom: 20px;
+      font-size: 1.8rem;
+    }
+    .resume-box {
+      background-color: #1e293b;
+      padding: 30px;
+      border-left: 5px solid #00ffd5;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 255, 213, 0.1);
+      margin-bottom: 40px;
+    }
+    ul {
+      padding-left: 20px;
+      margin-bottom: 20px;
+      line-height: 1.8;
+    }
+    .columns {
+      columns: 2;
+      -webkit-columns: 2;
+      -moz-columns: 2;
+    }
+    .btn {
+      display: inline-block;
+      background: #00ffd5;
+      color: #000;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #00c0a6;
+    }
+    @media (max-width: 700px) {
+      .columns {
+        columns: 1;
+      }
+      section {
+        padding: 40px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">Mayur Baviskar</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="">Resume</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="internship.html">Internship</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <h1>Resume</h1>
+
+    <div class="resume-box">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>BCA - Monark University</strong>, 2021 - 2024</li>
+        <li><strong>HSC - Amruta Vidhyalaya</strong>, 2020 - 2022</li>
+      </ul>
+    </div>
+
+    <div class="resume-box">
+      <h2>Experience</h2>
+      <ul>
+        <li><strong>Web Developer Intern – Infolabz IT Services</strong> (2024 - Present)
+          <ul>
+            <li>Developed and optimized web applications using Django, HTML, CSS, Bootstrap, and JS.</li>
+            <li>Created responsive UIs and implemented secure authentication systems.</li>
+          </ul>
+        </li>
+        <li><strong>MERN Stack Intern – BuiltUp Technologies</strong> (Jan – Apr 2025)
+          <ul>
+            <li>Completed hands-on full stack training and built a real-world MERN project.</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <div class="resume-box">
+      <h2>Skills</h2>
+      <ul class="columns">
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>HTML5/CSS3</li>
+        <li>Django</li>
+        <li>Bootstrap</li>
+        <li>PostgreSQL/MySQL</li>
+        <li>Git & GitHub</li>
+        <li>VS Code</li>
+      </ul>
+    </div>
+
+    <div class="resume-box">
+      <h2>Certifications</h2>
+      <ul>
+        <li>MERN Stack Internship – BuiltUp Technologies</li>
+        <li>CCC + Tally ERP 9</li>
+      </ul>
+    </div>
+
+    <div class="resume-box">
+      <h2>Languages</h2>
+      <ul class="columns">
+        <li>Gujarati (Native)</li>
+        <li>Hindi (Fluent)</li>
+        <li>English (Proficient)</li>
+      </ul>
+    </div>
+
+    <a href="Mayur BCA-sem 6 Resume_compressed.pdf"  target="_blank" class="btn">📄 View Resume (PDF)</a>
+  </section>
+</body>
+</html>
